@@ -14,11 +14,15 @@ import PrivateRoute from './Routing/PrivateRoute'
 import {Toaster} from 'react-hot-toast'
 import Footer from './Layout/Footer';
 import Admin from './Component/Admin/Admin';
+import {Helmet} from 'react-helmet'
 
 function App() {
   return (
     <div>
       <div><Toaster/></div>
+      <Helmet>
+        <title>{'Jesus Ty'}</title>
+      </Helmet>
       <Navbar/>
       
 
