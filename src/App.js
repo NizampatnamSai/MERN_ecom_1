@@ -16,12 +16,15 @@ import Footer from './Layout/Footer';
 import Admin from './Component/Admin/Admin';
 import {Helmet} from 'react-helmet'
 
+
+const Title='Jesus Ty';
 function App() {
   return (
+
     <div>
       <div><Toaster/></div>
       <Helmet>
-        <title>{'Jesus Ty'}</title>
+        <title>{Title}</title>
       </Helmet>
       <Navbar/>
       
